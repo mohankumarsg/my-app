@@ -14,7 +14,7 @@ node{
           sh "${mvnHome}/bin/mvn sonar:sonar"
         }
     }
-   
+   #test list
    stage('Email Notification'){
       mail bcc: '', body: '''Hi Welcome to jenkins email alerts
       Thanks
